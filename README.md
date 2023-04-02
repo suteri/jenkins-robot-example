@@ -1,12 +1,12 @@
-# automatic-pancake
+# Jenkins-robot-example Repository
 
-Example of a RobotFramework test suite I designed. This contained 
-a lot of trial and error, and could be refined with some effort.
-The plan was to create a system, which would make it easy for QA
-testers to write UI tests with a system based on [Behaviour/Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development).
+Example implementation of a Jenkins pipeline running a RobotFramework test suite.
+Purpose is to create a Jenkins pipeline running an integration test suite for
+a website, enabling QA testers to write UI tests with a system based
+on [Behaviour/Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development).
 
 The backend uses [Jenkins](https://jenkins.io/), with [Selenium Browser Automation Library](https://seleniumhq.org/) at the core, 
-used by [Robot Framework](https://robotframework.org/).
+which is run by [Robot Framework](https://robotframework.org/).
 
 ### The key components are:
 - key element file structured as YAML
